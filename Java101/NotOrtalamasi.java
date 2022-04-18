@@ -37,5 +37,7 @@ public class NotOrtalamasi{
 
         String str = sonuc > 60 ? "Sınıfı Geçti" : "Sınıfta Kaldı";
         System.out.print(str);
+
+        scan.close();
     }
 }

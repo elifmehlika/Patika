@@ -15,5 +15,7 @@ public class DaireAlan {
 
         float sonuc = pi*r*r*a/360.0f;
         System.out.println("Daire diliminin alanı: " + sonuc);
+
+        scan.close();
     }
 }

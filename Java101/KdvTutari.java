@@ -18,6 +18,7 @@ public class KdvTutari {
 
     System.out.println("Kdv Tutarı: " + kdvTutari);
     System.out.println("Kdv\'li Tutar: " + kdvliTutar);
-
+    
+    scan.close();
     }
 }

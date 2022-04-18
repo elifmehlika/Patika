@@ -19,5 +19,7 @@ public class UcgenAlan {
         float u = (a+b+c) / 2.0f;
         double alan = Math.sqrt(u*(u-a)*(u-b)*(u-c));
         System.out.println("Üçgenin alanı: " + alan);
+
+        scan.close();
     }
 }

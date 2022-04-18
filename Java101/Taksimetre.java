@@ -15,5 +15,7 @@ public class Taksimetre {
        total = total < 20 ? 20 : total;
 
        System.out.println("Tutar: " + total);
+
+       scan.close();
    } 
 }
