@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class KdvTutari {
     public static void main(String[] args) {
+        
     float kdvTutari, tutar, kdvliTutar, kdvOran;
 
     Scanner scan = new Scanner(System.in);
@@ -17,5 +18,6 @@ public class KdvTutari {
 
     System.out.println("Kdv Tutarı: " + kdvTutari);
     System.out.println("Kdv\'li Tutar: " + kdvliTutar);
+
     }
 }
