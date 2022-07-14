@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class RecursiveUs {
 
     static int power(int base, int exponent){
-        int num = 1;
-        for(int i = exponent; i > 0; i--){
-            num *= base;
+        if(exponent == 0){
+            return 1;
+        }else if(base == 0){
+            return 0;
         }
-        return num;
+        return (base * power(base, exponent - 1));
     }
     public static void main(String[] args) {
         int a, b;
