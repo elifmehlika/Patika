@@ -43,9 +43,6 @@ public class Atm {
                         case 3:
                         System.out.println("Bakiyeniz : " + balance);
                         break;
-
-                        default:
-                        System.out.println("Lütfen geçerli bir komut giriniz.");
                     }
                 }while(select != 4);
                 System.out.println("Tekrar görüşmek üzere.");
