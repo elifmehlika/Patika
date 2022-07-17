@@ -8,7 +8,6 @@ public class HarmonicAvg {
 
         for(int i : arr){
             sum += (1.0/i);
-            System.out.println(sum);
         }
 
         avg = arr.length / sum;
